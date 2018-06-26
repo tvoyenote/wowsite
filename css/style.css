@@ -1,0 +1,9 @@
+
+.container{
+    background-color: red;
+}
+body{
+    background-image: url(../img/water.jpg);
+    background-size: cover;
+}
+
