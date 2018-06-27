@@ -4,23 +4,28 @@ html, body, ul, li, p {
     margin: 0;
     padding: 0;
 }
-
 body{
     background-image: url(../img/water.jpg);
     background-size: cover;
     background-attachment: fixed; 
     
 }
-
+header{
+    height: 92px;
+}
+main{
+    height: 750px;
+}
+footer{
+    height: 100px;
+}
 .container{
-    
     width:100%;
     max-width: 940px;
     padding: 0 25px;  
     margin: 0 auto; 
     background-color: rgba(145, 167, 177, 0.596);    
 }
-
 .container-flex{
     display: flex;
     justify-content: flex-start;
@@ -29,8 +34,9 @@ body{
     display: flex;
     justify-content: space-around;
 }
-header{
-    height: 92px;
+.container-flex3{
+    display: flex;
+    justify-content: space-between;
 }
 .img-logo{
     width: 100px;
@@ -46,6 +52,7 @@ header{
 .col-img {
     width: 100px;
     height: 100px;
+    border-width:  2px; 
 }
 .col-img:hover{
     transform: scale(1.1);
@@ -54,26 +61,20 @@ header{
 .col-img:not(:hover){
     transition: 1s;
 }
-
 .box1{
     flex-grow: 7;
 }
-
 .box2{
     flex-grow: 0.5;
-    
 }
 .nav li{
     display: inline-block;
     margin-right: 15px;
-    
 }
-
 .nav a{
     text-decoration: none;
     line-height: 100px;
-} 
-
+}
 a:hover{
     color: #EEBACF;
 }
@@ -82,7 +83,6 @@ a{
     font-size: 18px;
     font-family: 'Pacifico', cursive;
 }
-
 h1{
     font-size: 24px;
     font-family: 'Pacifico', cursive;
@@ -106,3 +106,8 @@ p{
 .row {
 display: flex;
 }
+.icon{
+    height: 30px;
+    width: 30px;
+}
+
