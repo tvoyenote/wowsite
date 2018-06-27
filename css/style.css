@@ -25,6 +25,10 @@ body{
     display: flex;
     justify-content: flex-start;
 }
+.container-flex2{
+    display: flex;
+    justify-content: space-around;
+}
 header{
     height: 92px;
 }
@@ -32,14 +36,25 @@ header{
     width: 100px;
     height: 100px;
 }
-.imglist{
-    width: 100px;
-    height: 100px;
-    
-}
 .img-logo:hover{
     transform: scale(1.1);
+    transition: 1s;
 }
+.img-logo:not(:hover){
+    transition: 1s;
+}
+.col-img {
+    width: 100px;
+    height: 100px;
+}
+.col-img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.col-img:not(:hover){
+    transition: 1s;
+}
+
 .box1{
     flex-grow: 7;
 }
